@@ -21,6 +21,7 @@ jobs:
       - name: Build App
         run: scripts/buildprod.sh
 
+        #Connect to google API
       - id: 'auth'
         uses: 'google-github-actions/auth@v2'
         with:
